@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #b9b2b2;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: block;
+  height: 650px;
+  width: 600px;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#main h1 {
+  margin: 40px;
+  font-weight: 800;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#main #select-category {
+  margin: 50px;
+}
+
+#main #select-category h2 {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#main #select-category #category {
+  display: grid;
+
+  grid-template-columns: repeat(2, 0.5fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+#main #select-category #category .category-option {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: #f3f3f3;
+  color: #161414;
+  cursor: pointer;
+  margin: 15px;
+}
+
+#main #no-question {
+  margin: 0px 15px;
+  padding: 10px;
+}
+
+#main #no-question h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 5px;
+}
+
+#main #no-question button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: skyblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#main .start {
+  margin-bottom: 15px;
+  padding: 15px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#main .start:hover {
+  background-color: black;
+  color: #fff;
+  transition: all ease 2.5s;
+}
+
+#main2 {
+  display: none;
+  height: 650px;
+  width: 600px;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main2 #head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #9e9090;
+  margin: 20px;
+}
+
+#main2 #head h1 {
+  margin: 20px;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#main2 #head button {
+  padding: 10px 15px;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: 650;
+  background-color: #54cddd70;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#main2 #question-content {
+  margin: 40px;
+  border-bottom: 2px solid rgb(110, 110, 110);
+}
+
+#main2 #question-content h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#main2 #question-content ul {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+
+#main2 #question-content ul li {
+  border: 3px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: start;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#main2 .quiz-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 40px;
+}
+
+#main2 .quiz-footer p b {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#main2 .quiz-footer button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: skyblue;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  visibility: hidden;
+}
+
+/* #main2 .quiz-footer button:hover {
+  transform: scale(1.1);
+  background-color: white;
+  transition: all ease 1.5s;
+} */
+
+#main3 {
+  display: none;
+  height: 550px;
+  width: 600px;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#main3 img {
+  margin: 50px;
+}
+
+#main3 h1 {
+  margin: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#main3 p {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#main3 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#main2 #question-content #answer-options .correct {
+  border: rgb(145, 219, 145);
+  background: rgb(201, 238, 201);
+  color: green;
+}
+
+#main2 #question-content #answer-options .incorrect {
+  border: rgb(218, 133, 133);
+  background: rgb(160, 121, 121);
+  color: rgb(238, 0, 0);
+}
+
+#main .active {
+  transform: scale(1.2);
+}
