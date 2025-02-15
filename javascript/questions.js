@@ -187,469 +187,599 @@ const questions = [
     ],
   },
   {
-    category: "mathematics",
+    category: "nursing",
     questions: [
       {
-        question: "What is the value of 7 × 8?",
-        options: ["54", "56", "58", "60"],
-        correctAnswer: 1,
+        question: "A visible tangle of fungal hyphae is generally known as:",
+        options: ["Mycelium", "Sporangium", "Hypha", "Conidium"],
+        correctAnswer: 0,
       },
       {
-        question: "What is the cube root of 27?",
-        options: ["2", "3", "4", "5"],
-        correctAnswer: 1,
+        question:
+          "Which of the following is the type of bond between molecules of water in a beaker of water?",
+        options: [
+          "Ionic bond",
+          "Covalent bond",
+          "Hydrogen bond",
+          "Peptide bond",
+        ],
+        correctAnswer: 2,
       },
       {
-        question: "Simplify: 4x + 3x - 2x",
-        options: ["3x", "5x", "7x", "9x"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the least common multiple of 6 and 8?",
-        options: ["12", "24", "36", "48"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of |−5|?",
-        options: ["-5", "5", "0", "10"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the sum of the first five prime numbers?",
-        options: ["18", "28", "38", "48"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of sin(90°)?",
-        options: ["0", "1", "0.5", "√2"],
+        question:
+          "If sodium transfers an electron to fluorine, what type of bond is made?",
+        options: ["Covalent", "Ionic", "Hydrogen", "Peptide"],
         correctAnswer: 1,
       },
       {
         question:
-          "If a triangle has sides 3, 4, and 5, what type of triangle is it?",
-        options: ["Equilateral", "Isosceles", "Scalene", "Right-angled"],
+          "All of the following are characteristics of the Platyhelminthes EXCEPT that they:",
+        options: [
+          "Have highly developed digestive and nervous systems",
+          "Are bilaterally symmetrical",
+          "Are dorsoventrally flattened",
+          "Lack a body cavity",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "Which of the following statements best describes what happens when a bacterial cell is placed in a solution containing 10% NaCl?",
+        options: [
+          "Water will move into the cell",
+          "Water will move out of the cell",
+          "There will be no net movement of water",
+          "The cell will swell and burst",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "A scientist wants to perform a test that will indicate whether a nucleic acid sample is composed of either RNA or DNA. Testing for the presence of which of the following is most appropriate in this situation?",
+        options: ["Thymine", "Uracil", "Deoxyribose", "Phosphate"],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Which are the primary molecules making up plasma membranes in cells?",
+        options: ["Carbohydrates", "Proteins", "Lipids", "Nucleic acids"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "A Gram-positive bacterium suddenly acquires resistance to the antibiotic methicillin. This trait most likely occurred due to the acquisition of new genetic information (plasmids) through:",
+        options: ["Transformation", "Transduction", "Conjugation", "Sex pili"],
         correctAnswer: 3,
       },
       {
-        question: "What is the formula for the circumference of a circle?",
-        options: ["πr^2", "2πr", "πd", "r^2"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of 3^3?",
-        options: ["6", "9", "27", "81"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the value of cos(0°)?",
-        options: ["0", "1", "-1", "√2"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is 25% of 80?",
-        options: ["15", "20", "25", "30"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Solve for x: 3x = 12.",
-        options: ["2", "3", "4", "6"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the reciprocal of 5/3?",
-        options: ["3/5", "5/3", "15", "1/5"],
+        question: "Which structure protects bacteria from being phagocytized?",
+        options: ["Capsule", "Pili", "Flagella", "Cell wall"],
         correctAnswer: 0,
       },
       {
-        question: "What is the value of 0.5 × 0.2?",
-        options: ["0.01", "0.02", "0.1", "0.2"],
-        correctAnswer: 2,
+        question:
+          "Which type of molecule contains monomers with -NH₂ (amino) groups?",
+        options: ["Lipids", "Proteins", "Carbohydrates", "Nucleic acids"],
+        correctAnswer: 1,
       },
       {
-        question: "Simplify: 2(x + 3)",
-        options: ["2x + 6", "2x + 3", "x + 6", "2x"],
+        question: "Algae and fungi are eukaryotes.",
+        options: ["True", "False"],
         correctAnswer: 0,
       },
       {
-        question: "What is the solution to the equation x^2 = 16?",
-        options: ["4", "-4", "±4", "0"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the value of log10(100)?",
-        options: ["1", "2", "3", "4"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the volume of a cube with side length 5?",
-        options: ["125", "100", "25", "150"],
+        question: "All algae have:",
+        options: [
+          "Chlorophyll",
+          "Mitochondria",
+          "Cell walls made of chitin",
+          "Flagella",
+        ],
         correctAnswer: 0,
       },
       {
-        question: "What is the smallest prime number?",
-        options: ["0", "1", "2", "3"],
-        correctAnswer: 2,
-      },
-      {
-        question: "If y = 3x + 7, what is the y-intercept?",
-        options: ["3", "7", "10", "0"],
+        question: "Fungi typically have ____________ in their cell walls.",
+        options: ["Peptidoglycan", "Chitin", "Cellulose", "Lipopolysaccharide"],
         correctAnswer: 1,
       },
       {
-        question: "What is the perimeter of a square with side length 9?",
-        options: ["18", "27", "36", "45"],
-        correctAnswer: 2,
+        question: "Archaea are typically found in extreme environments.",
+        options: ["True", "False"],
+        correctAnswer: 0,
       },
       {
-        question: "What is the value of 1/2 ÷ 1/4?",
-        options: ["1/8", "1/2", "2", "4"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Simplify: 5x - 3 + 2x + 7",
-        options: ["7x - 4", "7x + 4", "5x + 4", "5x + 10"],
+        question: "Bacteria are present on the body:",
+        options: [
+          "Only when infected",
+          "Constantly",
+          "Only in the gut",
+          "Only on the skin",
+        ],
         correctAnswer: 1,
       },
       {
-        question: "What is the sum of the interior angles of a hexagon?",
-        options: ["360°", "540°", "720°", "900°"],
+        question: "Bioremediation refers to:",
+        options: [
+          "Using bacteria to clean up pollutants",
+          "The use of antibiotics to treat infections",
+          "The process of fermentation in food production",
+          "The spread of bacteria in the environment",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "During which phase of the bacterial growth curve does exponential growth occur?",
+        options: ["Stationary phase", "Death phase", "Log phase", "Lag phase"],
         correctAnswer: 2,
+      },
+      {
+        question:
+          "Electron microscopes differ from compound light microscopes in that: (select all that apply)",
+        options: [
+          "Electrons replace the light",
+          "Electromagnets replace the glass lenses",
+          "Resolution is higher than it is for compound light microscopes",
+          "Magnification is higher than it is for compound light microscopes",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        question: "Endospores:",
+        options: [
+          "Allow certain bacteria to survive harsh conditions",
+          "Are a form of reproduction",
+          "Are obligate intracellular parasites",
+          "Are sensitive to damaging environmental conditions",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "Fungal diseases are generally referred to as:",
+        options: [
+          "Mycoses",
+          "Toxoplasmosis",
+          "Protozoan infections",
+          "Helminthic diseases",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "Fungi are important in: (select all that apply)",
+        options: [
+          "Food production",
+          "Food spoilage",
+          "Production of antibiotics",
+          "Diseases of plants",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "Gram-positive bacteria are less susceptible to penicillin than Gram-negatives.",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "How many bacteria would be present after 1.25 hours for a population of E. coli capable of dividing every 15 minutes? The population started from 10 cells. No calculators.",
+        options: ["160 cells", "320 cells", "640 cells", "1280 cells"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Identify the causative agent of African sleeping sickness.",
+        options: [
+          "Plasmodium falciparum",
+          "Trypanosoma brucei",
+          "Leishmania donovani",
+          "Toxoplasma gondii",
+        ],
+        correctAnswer: 1,
       },
     ],
   },
-
   {
-    category: "geography",
+    category: "nursing 3",
     questions: [
       {
-        question: "What is the largest continent by area?",
-        options: ["Africa", "Asia", "Europe", "Antarctica"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the capital of France?",
-        options: ["Madrid", "Berlin", "Paris", "Rome"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which ocean is the largest in the world?",
-        options: [
-          "Atlantic Ocean",
-          "Indian Ocean",
-          "Pacific Ocean",
-          "Arctic Ocean",
-        ],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the smallest country in the world by area?",
-        options: ["Monaco", "Malta", "Vatican City", "San Marino"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the longest river in the world?",
-        options: ["Amazon", "Nile", "Yangtze", "Mississippi"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which desert is the largest in the world?",
-        options: ["Sahara", "Gobi", "Arctic", "Antarctic"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the tallest mountain in the world?",
-        options: ["K2", "Mount Everest", "Mount Kilimanjaro", "Mount Denali"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which country has the most time zones?",
-        options: ["USA", "China", "Russia", "Australia"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the capital city of Australia?",
-        options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which U.S. state is the largest by area?",
-        options: ["Texas", "California", "Alaska", "Montana"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which African country is the most populous?",
-        options: ["Nigeria", "Ethiopia", "Egypt", "South Africa"],
+        question: "Which of the following is a unicellular fungal morphology?",
+        options: ["Yeast", "Molds", "Mushrooms", "Lichens"],
         correctAnswer: 0,
       },
       {
-        question: "What is the official language of Brazil?",
-        options: ["Spanish", "Portuguese", "French", "English"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which country is known as the Land of the Rising Sun?",
-        options: ["China", "India", "Japan", "South Korea"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which country has the highest number of islands?",
-        options: ["Indonesia", "Sweden", "Philippines", "Canada"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the largest lake in the world by surface area?",
-        options: [
-          "Lake Victoria",
-          "Lake Superior",
-          "Caspian Sea",
-          "Lake Huron",
-        ],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the capital city of Canada?",
-        options: ["Toronto", "Vancouver", "Montreal", "Ottawa"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which river flows through London?",
-        options: ["Seine", "Thames", "Danube", "Rhine"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which country is the largest by area in South America?",
-        options: ["Argentina", "Brazil", "Chile", "Peru"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which continent is home to the Amazon Rainforest?",
-        options: ["Africa", "Asia", "South America", "Australia"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the smallest U.S. state by area?",
-        options: ["Delaware", "Rhode Island", "Connecticut", "Hawaii"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the capital of Egypt?",
-        options: ["Cairo", "Alexandria", "Giza", "Luxor"],
+        question: "Which of the following is an example of a helminth?",
+        options: ["Tapeworms", "Roundworms", "Trypanosomes", "Protozoans"],
         correctAnswer: 0,
       },
       {
-        question: "Which sea is the saltiest in the world?",
-        options: ["Red Sea", "Mediterranean Sea", "Dead Sea", "Baltic Sea"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which European country is known for its fjords?",
-        options: ["Sweden", "Norway", "Denmark", "Finland"],
-        correctAnswer: 1,
+        question: "Which of the following is mismatched?",
+        options: [
+          "Trypanosomes - Dysentery",
+          "Entamoeba histolytica - Dysentery",
+          "Plasmodium - Malaria",
+          "Giardia – Diarrhea",
+        ],
+        correctAnswer: 0,
       },
       {
         question:
-          "What is the name of the imaginary line dividing the Earth into Northern and Southern Hemispheres?",
+          "Which of the following staining method(s) is/are considered to be differential? (Select all that apply)",
         options: [
-          "Prime Meridian",
-          "Equator",
-          "Tropic of Cancer",
-          "Tropic of Capricorn",
+          "Capsule stain",
+          "Flagella stain",
+          "Acid-fast stain",
+          "Gram stain",
+        ],
+        correctAnswer: [2, 3],
+      },
+      {
+        question:
+          "Which of the following statements regarding protozoa is FALSE?",
+        options: [
+          "All protozoans are photoautotrophs.",
+          "Some protozoans are heterotrophs.",
+          "Protozoans are unicellular organisms.",
+          "Protozoans can cause diseases in humans.",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "Why are algae medically relevant?",
+        options: [
+          "They produce toxins that may be consumed",
+          "They can cause infections",
+          "They are used in pharmaceutical products",
+          "They help in water purification",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "You get growth on your MSA plate, and the agar turns from red to yellow. What do you know? (Select all that apply)",
+        options: [
+          "Your bacteria ferment lactose",
+          "Your bacteria ferment mannitol",
+          "You have Gram-positive cocci (Staphylococcus)",
+          "You have Gram-negative rods",
+        ],
+        correctAnswer: [1, 2],
+      },
+      {
+        question:
+          "Which of the following are positively-charged subatomic particles?",
+        options: ["Protons", "Neutrons", "Electrons", "Nucleons"],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "You inoculate a tube of solidifying media with a certain species of bacteria. It grows throughout the tube, but is especially concentrated near the surface. This species includes:",
+        options: [
+          "Microaerophiles",
+          "Facultative anaerobes",
+          "Obligate aerobes",
+          "Aerotolerant anaerobes",
         ],
         correctAnswer: 1,
       },
       {
         question:
-          "Which country shares the longest land border with the United States?",
-        options: ["Canada", "Mexico", "Russia", "Cuba"],
+          "_______________ are in a group called Zygomycetes. They produce reproductive structures called sporangia.",
+        options: ["Aspergillus", "Penicillium", "Rhizopus", "Mucor"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of the following statements about carbon-12 is FALSE?",
+        options: [
+          "It has 12 neutrons in its nucleus.",
+          "It has 6 neutrons in its nucleus.",
+          "It has 6 protons in its nucleus.",
+          "It has an atomic mass of 12.",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "Streptobacilli is a term to describe:",
+        options: [
+          "A chain of rods",
+          "A pair of rods",
+          "A cluster of rods",
+          "A single rod",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "(Bonus) Identify each as a prokaryotic structure, a eukaryotic structure, or both:",
+        options: [
+          "Cilia",
+          "70s Ribosome",
+          "Flagellum",
+          "Nucleus",
+          "Endospores",
+          "Mitochondrion",
+        ],
+        correctAnswer: [
+          "Eukaryotic",
+          "Prokaryotic",
+          "Both",
+          "Eukaryotic",
+          "Prokaryotic",
+          "Eukaryotic",
+        ],
+      },
+      {
+        question: "Which of the following is a sign of dehydration?",
+        options: [
+          "Dry mouth",
+          "Increased urination",
+          "Low blood pressure",
+          "All of the above",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "What is the normal range for adult blood pressure?",
+        options: ["120/80 mmHg", "130/90 mmHg", "140/100 mmHg", "110/70 mmHg"],
+        correctAnswer: 0,
+      },
+      {
+        question: "What is the first step in CPR for an adult victim?",
+        options: [
+          "Start chest compressions",
+          "Check for a pulse",
+          "Call for help",
+          "Give rescue breaths",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of the following is NOT a symptom of a heart attack?",
+        options: ["Chest pain", "Shortness of breath", "Nausea", "Headache"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Which type of insulin is fast-acting?",
+        options: [
+          "Regular insulin",
+          "Long-acting insulin",
+          "Intermediate-acting insulin",
+          "Rapid-acting insulin",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        question: "What is the term for a surgical opening in the abdomen?",
+        options: ["Colostomy", "Gastrectomy", "Laparotomy", "Hysterectomy"],
+        correctAnswer: 2,
+      },
+      {
+        question: "What is the primary purpose of a urinary catheter?",
+        options: [
+          "Drain urine from the bladder",
+          "Relieve urinary retention",
+          "Monitor kidney function",
+          "Treat urinary tract infections",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "Which of the following medications is most commonly prescribed for hypertension?",
+        options: ["Amlodipine", "Levothyroxine", "Insulin", "Amoxicillin"],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "What is the most common route of transmission for the flu virus?",
+        options: [
+          "Airborne droplets",
+          "Contact with contaminated surfaces",
+          "Ingestion of contaminated food",
+          "Direct skin contact",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "What is the role of a nurse in the preoperative phase?",
+        options: [
+          "Providing education about the procedure",
+          "Administering anesthesia",
+          "Assisting in surgery",
+          "Monitoring vital signs during surgery",
+        ],
         correctAnswer: 0,
       },
     ],
   },
-
   {
-    category: "environment",
+    category: "nursing 2",
     questions: [
       {
-        question: "What is the most abundant gas in Earth's atmosphere?",
-        options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which layer of the atmosphere contains the ozone layer?",
-        options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the primary cause of global warming?",
+        question:
+          "The agent described in the previous question is transmitted by:",
         options: [
-          "Deforestation",
-          "Fossil fuels",
-          "Ozone depletion",
-          "Volcanic eruptions",
+          "An arthropod—the tsetse fly",
+          "A protozoan—Trypanosoma cruzi",
+          "A helminth—the liver fluke",
+          "An arthropod—chiggers",
         ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "Isolating a pure microbial culture from a mixed culture is best accomplished by the:",
+        options: [
+          "Broth culture method",
+          "Membrane filtration method",
+          "Streak plate method",
+          "Multi-tube method",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Lichens are a symbiotic relationship between:",
+        options: [
+          "Algae and fungus",
+          "Bacteria and fungus",
+          "Virus and fungus",
+          "Plant roots and fungus",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "Most medically relevant bacteria have an optimum growth temperature at human body temperature and are termed:",
+        options: ["Thermophiles", "Psychrophiles", "Mesophiles", "Halophiles"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Mycorrhizae form a symbiotic relationship with:",
+        options: ["Animals", "Bacteria", "Plants", "Algae"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Nutrient agar is an example of which type of media?",
+        options: ["Enriched", "Complex", "Selective", "Differential"],
         correctAnswer: 1,
       },
       {
         question:
-          "Which renewable energy source uses the power of moving water?",
-        options: ["Solar", "Geothermal", "Hydropower", "Wind"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the process by which plants produce oxygen?",
-        options: [
-          "Respiration",
-          "Photosynthesis",
-          "Decomposition",
-          "Evaporation",
-        ],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which gas is a major contributor to the greenhouse effect?",
-        options: ["Nitrogen", "Oxygen", "Carbon Dioxide", "Hydrogen"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the largest source of freshwater on Earth?",
-        options: ["Rivers", "Lakes", "Groundwater", "Glaciers"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is biodiversity?",
-        options: [
-          "The variety of life on Earth",
-          "The number of forests",
-          "The number of ecosystems",
-          "The number of species in oceans",
-        ],
+          "Obligate aerobes will grow only near the surface of an agar-filled tube.",
+        options: ["True", "False"],
         correctAnswer: 0,
       },
       {
-        question: "Which of the following is a non-renewable energy source?",
-        options: ["Wind", "Coal", "Solar", "Hydropower"],
-        correctAnswer: 1,
+        question: "Outside of a cell, viruses are:",
+        options: ["Inactive"],
+        correctAnswer: 0,
       },
       {
-        question: "What is the main cause of deforestation?",
-        options: ["Urbanization", "Agriculture", "Logging", "All of the above"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which organization monitors global climate change?",
-        options: ["WHO", "UNESCO", "IPCC", "WWF"],
+        question: "Prions:",
+        options: [
+          "Are composed of only RNA",
+          "Are composed of only DNA",
+          "Are composed of only protein",
+          "Tend to cause diseases in plants",
+        ],
         correctAnswer: 2,
       },
       {
-        question: "What is the term for the variety of ecosystems on Earth?",
+        question: "Red tides are caused by blooms of:",
+        options: ["Dinoflagellates"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Since protozoans are heterotrophs, they:",
         options: [
-          "Genetic diversity",
-          "Ecosystem diversity",
-          "Species diversity",
-          "Population diversity",
+          "Make their own food",
+          "Act as parasites",
+          "Are always carried by arthropods",
+          "Consume organic macromolecules",
         ],
-        correctAnswer: 1,
+        correctAnswer: 3,
+      },
+      {
+        question: "The cell wall of Gram-positive bacteria:",
+        options: ["Consists of many (up to 40) layers"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The idea of spontaneous generation postulated that:",
+        options: [
+          "Organisms could evolve into the next generation of organisms",
+          "Organisms could spontaneously combust",
+          "Organisms could spontaneously arise from other living organisms",
+          "Living organisms could spontaneously arise from non-living substances",
+        ],
+        correctAnswer: 3,
       },
       {
         question:
-          "Which human activity is the leading cause of ocean pollution?",
-        options: ["Fishing", "Tourism", "Plastic waste", "Oil spills"],
+          "The life cycle of the blood fluke requires that humans and ___________ act as hosts.",
+        options: ["Snails"],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "The macromolecule found in the cell walls of ALL bacteria (with cell walls) is:",
+        options: [
+          "Lipopolysaccharide",
+          "Teichoic acid",
+          "Peptidoglycan",
+          "Pseudomurein",
+        ],
         correctAnswer: 2,
       },
       {
-        question: "What does the term 'carbon footprint' mean?",
+        question:
+          "The plasma membrane of both eukaryotes and prokaryotes functions to:",
         options: [
-          "The total emissions of carbon dioxide",
-          "The amount of carbon in the soil",
-          "Carbon levels in forests",
-          "Carbon levels in the atmosphere",
+          "Regulate movement of molecules that enter and leave the cell",
         ],
         correctAnswer: 0,
       },
       {
-        question: "Which ecosystem covers the largest part of Earth's surface?",
-        options: ["Deserts", "Forests", "Oceans", "Grasslands"],
+        question: "The prokaryotic group includes bacteria and archaea.",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The scientific name of an organism includes its:",
+        options: ["Genus and species"],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "The two magnifying lenses found in a compound light microscope are the:",
+        options: [
+          "Basic and transverse",
+          "Small and large",
+          "Ocular and objective",
+          "Simple and phase",
+        ],
         correctAnswer: 2,
       },
       {
-        question: "What is the main purpose of a wildlife sanctuary?",
+        question: "Unicellular algae possess holdfasts.",
+        options: ["False"],
+        correctAnswer: 0,
+      },
+      {
+        question: "What sugar is in the MAC plate to make it differential?",
+        options: ["Mannitol", "Glucose", "Lactose", "Bile salts"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Which of the following is NOT a way that people become infected with helminths?",
         options: [
-          "To protect animals",
-          "To protect forests",
-          "To promote tourism",
-          "To research plants",
+          "Inhalation",
+          "Eating undercooked meat",
+          "Contact with contaminated water",
+          "Ingestion of eggs from soil",
         ],
         correctAnswer: 0,
       },
       {
-        question: "Which of the following is a greenhouse gas?",
-        options: ["Oxygen", "Methane", "Nitrogen", "Argon"],
+        question: "Which of the following cannot be seen with a Gram stain?",
+        options: ["Bacteria", "Viruses", "Fungi", "Mycobacterium"],
         correctAnswer: 1,
       },
       {
-        question: "Which country produces the most solar energy?",
-        options: ["USA", "India", "Germany", "China"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is desertification?",
-        options: [
-          "The expansion of deserts",
-          "The loss of biodiversity",
-          "The transformation of fertile land into desert",
-          "The cutting down of rainforests",
-        ],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is acid rain primarily caused by?",
-        options: [
-          "Greenhouse gases",
-          "Sulfur dioxide and nitrogen oxides",
-          "Ozone depletion",
-          "Deforestation",
-        ],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which of the following is a major effect of climate change?",
-        options: [
-          "Rising sea levels",
-          "Decreasing ocean salinity",
-          "Expanding forests",
-          "Increasing ozone layer",
-        ],
+        question: "Which of the following does NOT have a cell wall?",
+        options: ["Mycoplasma", "Fungi", "Bacteria", "Algae"],
         correctAnswer: 0,
       },
       {
-        question: "Which practice helps conserve water?",
+        question:
+          "Which of the following factors does NOT affect a bacterium's ability to grow?",
         options: [
-          "Drip irrigation",
-          "Overwatering",
-          "Deforestation",
-          "Pesticide use",
+          "Time of day",
+          "Temperature",
+          "pH levels",
+          "Oxygen availability",
         ],
         correctAnswer: 0,
-      },
-      {
-        question: "Which of the following is a sustainable resource?",
-        options: ["Oil", "Natural gas", "Timber", "Coal"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which type of pollution harms aquatic life the most?",
-        options: [
-          "Air pollution",
-          "Soil pollution",
-          "Water pollution",
-          "Noise pollution",
-        ],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which country has the largest area of tropical rainforest?",
-        options: ["Indonesia", "Brazil", "Congo", "Australia"],
-        correctAnswer: 1,
       },
     ],
   },
