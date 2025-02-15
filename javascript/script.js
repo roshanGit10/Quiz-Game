@@ -16,7 +16,7 @@ let currentQuestion = null;
 const questionIndexHistory = [];
 let numberOfQuestion = 2;
 
-const QUIZ_TIME_LIMIT = 60;
+const QUIZ_TIME_LIMIT = 100;
 let currentTime = QUIZ_TIME_LIMIT;
 let timer = null;
 
