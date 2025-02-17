@@ -187,7 +187,7 @@ const questions = [
     ],
   },
   {
-    category: "nursing",
+    category: "micro",
     questions: [
       {
         question: "A visible tangle of fungal hyphae is generally known as:",
@@ -379,7 +379,7 @@ const questions = [
     ],
   },
   {
-    category: "nursing 3",
+    category: "micro 2",
     questions: [
       {
         question: "Which of the following is a unicellular fungal morphology?",
@@ -592,7 +592,7 @@ const questions = [
     ],
   },
   {
-    category: "nursing 2",
+    category: "micro 3",
     questions: [
       {
         question:
